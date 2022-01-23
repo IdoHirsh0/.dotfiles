@@ -30,11 +30,14 @@ git clone --recursive https://github.com/andresgongora/synth-shell.git
 chmod +x synth-shell/setup.sh
 cd synth-shell
 ./setup.sh
+## Remove synth-shell-prompt.config after installation so I can use my own synth-shell-prompt.config with stow
+rm ~/.config/synth-shell/synth-shell-prompt.config
 cd ~/.dotfiles
 
 # Stow
 stow bash
 stow git
+stow synth-shell
 stow nvim
 
 # Install neovim plugins
