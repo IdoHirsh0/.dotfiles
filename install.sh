@@ -55,4 +55,4 @@ sudo mkdir /.git
 # Make neofetch launch on logon
 echo '' >> ~/.bashrc
 echo '# Make neofetch launch on logon' >> ~/.bashrc
-echo neofetch >> ~/.bashrc
+echo 'neofetch --ascii_distro Windows7' >> ~/.bashrc
