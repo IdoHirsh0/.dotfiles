@@ -13,6 +13,9 @@ sudo apt-get install manpages-dev -y
 # Install C language server
 sudo apt install ccls -y
 
+# Install tree
+sudo apt install tree
+
 # Stow
 stow bash
 stow git
