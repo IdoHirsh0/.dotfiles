@@ -1,0 +1,18 @@
+BasedOnStyle: WebKit
+
+# Force pointers to the Left
+PointerAlignment: Left
+
+# Break line for braces
+BreakBeforeBraces: Allman
+
+# Space after cast
+SpaceAfterCStyleCast: true
+
+# 4 spaces
+IndentWidth: 4
+
+# Always start on new line
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never

@@ -1,0 +1,11 @@
+### C ###
+
+# Cached data for ccls C language server 
+.ccls-cache
+
+
+### Node ###
+
+# Node dependency directories
+node_modules
+
