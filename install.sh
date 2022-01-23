@@ -18,10 +18,10 @@ sudo apt-get install manpages-dev -y
 sudo apt install ccls -y
 
 # Install tree
-sudo apt install tree
+sudo apt install tree -y
 
 # Install neofetch
-sudo apt install neofetch
+sudo apt install neofetch -y
 
 # Make .config directory in ~ ,if doesn't exist already, to make stow symlink only the wanted directories
 mkdir ~/.config
@@ -53,5 +53,6 @@ sudo ln -s ~/.dotfiles/.clang-format /.clang-format
 sudo mkdir /.git
 
 # Make neofetch launch on logon
+echo '' >> ~/.bashrc
 echo '# Make neofetch launch on logon' >> ~/.bashrc
 echo neofetch >> ~/.bashrc
