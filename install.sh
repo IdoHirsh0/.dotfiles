@@ -20,6 +20,9 @@ sudo apt install ccls -y
 # Install tree
 sudo apt install tree
 
+# Install neofetch
+sudo apt install neofetch
+
 # Make .config directory in ~ ,if doesn't exist already, to make stow symlink only the wanted directories
 mkdir ~/.config
 
@@ -32,9 +35,9 @@ cd synth-shell
 ./setup.sh
 ## Remove synth-shell-prompt.config after installation so I can use my own synth-shell-prompt.config with stow
 rm ~/.config/synth-shell/synth-shell-prompt.config
-cd ~/.dotfiles
 
 # Stow
+cd ~/.dotfiles
 stow bash
 stow git
 stow synth-shell
@@ -48,3 +51,7 @@ sudo ln -s ~/.dotfiles/.clang-format /.clang-format
 
 # Make an empty .git directory in root to make the lsp autocomplition work
 sudo mkdir /.git
+
+# Make neofetch launch on logon
+echo '# Make neofetch launch on logon' >> ~/.bashrc
+echo neofetch >> ~/.bashrc
