@@ -9,6 +9,7 @@ Easily set up a development environment on a fresh machine!
 2. `cd .dotfiles`
 3. Make sure `install.sh` has execution premmisions
 4. Run `./install.sh`
+5. Open a new terminal session
 
 And that's it 😜
 

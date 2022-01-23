@@ -1,3 +1,7 @@
+# Make sure system is updated
+sudo apt update -y
+sudo apt upgrade -y
+
 # Install stow
 sudo apt-get install stow -y
 
