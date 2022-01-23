@@ -104,6 +104,28 @@ noremap <leader>q :q<Cr>
 noremap <C-s> :w<Cr>
 noremap <C-a> ggVG
 
+" Move text
+nnoremap <S-j> :m .+1<Cr>==
+nnoremap <S-k> :m .-2<Cr>==
+vnoremap <A-j> :m '>+1<Cr>gv=gv
+vnoremap <A-k> :m '<-2<Cr>gv=gv
+
+" Search & Replace text
+nnoremap <leader>sr :%s/
+
+" Go to end & start of line
+nnoremap L $
+nnoremap H _
+
+" Go to end of line and put ;
+nnoremap <leader>; $a;<Esc>a
+
+" No highlight
+nnoremap <leader>nh :nohl<Cr>
+
+" Make Y behave like C, D ...
+nnoremap Y y$
+
 " Create splits
 nmap <leader>sj <C-w>s
 nmap <leader>sl <C-w>v
@@ -119,15 +141,6 @@ noremap <leader>rh :vertical resize +5<Cr>
 noremap <leader>rl :vertical resize -5<Cr>
 noremap <leader>rk :resize +5<Cr>
 noremap <leader>rj :resize -5<Cr>
-
-" Move text
-nnoremap <S-j> :m .+1<Cr>==
-nnoremap <S-k> :m .-2<Cr>==
-vnoremap <A-j> :m '>+1<Cr>gv=gv
-vnoremap <A-k> :m '<-2<Cr>gv=gv
-
-" Make Y behave like C, D ...
-nnoremap Y y$
 
 " Undo break points
 inoremap , ,<c-g>u
@@ -145,7 +158,6 @@ inoremap ? ?<c-g>u
 
 " Code formatting
 nnoremap <leader>ff :lua vim.lsp.buf.formatting({})<Cr>
-nnoremap <leader>fm :%s//<Cr>
 
 " - Telescope
 nnoremap <leader>tp :Telescope find_files<Cr>
