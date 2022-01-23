@@ -10,6 +10,9 @@ sudo apt-get install neovim -y
 sudo apt install build-essential -y
 sudo apt-get install manpages-dev -y
 
+# Install C language server
+sudo apt install ccls -y
+
 # Stow
 stow bash
 stow git
