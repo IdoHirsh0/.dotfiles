@@ -20,6 +20,18 @@ sudo apt install ccls -y
 # Install tree
 sudo apt install tree
 
+# Make .config directory in ~ ,if doesn't exist already, to make stow symlink only the wanted directories
+mkdir ~/.config
+
+# Better bash prompt
+sudo apt install fonts-powerline -y
+cd ~
+git clone --recursive https://github.com/andresgongora/synth-shell.git
+chmod +x synth-shell/setup.sh
+cd synth-shell
+./setup.sh
+cd ~/.dotfiles
+
 # Stow
 stow bash
 stow git
