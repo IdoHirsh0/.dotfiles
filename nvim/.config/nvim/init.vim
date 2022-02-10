@@ -94,9 +94,9 @@ let mapleader = ' '
 " - General
 
 " Change Esc key
-imap jk <Esc><Esc><Esc>
-vmap jk <Esc><Esc><Esc>
-cmap jk <Esc><Esc><Esc>
+imap ;j <Esc><Esc><Esc>
+vmap ;j <Esc><Esc><Esc>
+cmap ;j <Esc><Esc><Esc>
 
 " Save & quit
 noremap <leader>w :w<Cr>
