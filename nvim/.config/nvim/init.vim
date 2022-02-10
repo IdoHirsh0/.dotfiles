@@ -104,6 +104,10 @@ noremap <leader>q :q<Cr>
 noremap <C-s> :w<Cr>
 noremap <C-a> ggVG
 
+" Go to start & end of line
+noremap <leader>h _
+noremap <leader>l $
+
 " Move text
 nnoremap <S-j> :m .+1<Cr>==
 nnoremap <S-k> :m .-2<Cr>==
