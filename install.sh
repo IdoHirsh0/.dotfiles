@@ -42,6 +42,7 @@ stow bash
 stow git
 stow synth-shell
 stow nvim
+stow fonts
 
 # Install neovim plugins
 nvim --headless +PlugInstall +qall

@@ -15,9 +15,14 @@ And that's it 😜
 
 ### Additions
 
+#### nvim
 - Couldn't find a way to autoinstall language parsers for treesiter in `nvim`
 - Inside `nvim` run `:TSInstall <language>` to install a language parser
 - To see all supported languages run `:TSInstallInfo`
+
+#### font
+- Couldn't find a way to auto setup the `Hack Nerd Font` as the default terminal font.
+- Change the font manually in the terminal's preferences to enjoy the full experience of the terminal using icons.
 
 ### Small issues
 
