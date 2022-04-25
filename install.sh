@@ -23,6 +23,11 @@ sudo apt install tree -y
 # Install neofetch
 sudo apt install neofetch -y
 
+# Install google chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+rm -rf google-chrome-stable_current_amd64.deb
+
 # Make .config directory in ~ ,if doesn't exist already, to make stow symlink only the wanted directories
 mkdir ~/.config
 
@@ -33,6 +38,7 @@ git clone --recursive https://github.com/andresgongora/synth-shell.git
 chmod +x synth-shell/setup.sh
 cd synth-shell
 ./setup.sh
+
 ## Remove synth-shell-prompt.config after installation so I can use my own synth-shell-prompt.config with stow
 rm ~/.config/synth-shell/synth-shell-prompt.config
 

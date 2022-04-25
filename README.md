@@ -23,6 +23,7 @@ And that's it 😜
 #### font
 - Couldn't find a way to auto setup the `Hack Nerd Font` as the default terminal font.
 - Change the font manually in the terminal's preferences to enjoy the full experience of the terminal using icons.
+- To see the added fonts go to `~/.local/share/fonts`
 
 ### Small issues
 
