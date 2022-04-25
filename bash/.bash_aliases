@@ -1,6 +1,6 @@
 # My bash aliases
+alias l='ls -al'
 alias ll='ls -l'
-alias la='ls -al'
 alias vim='nvim'
 alias c='clear'
 
