@@ -73,7 +73,7 @@ sudo stow -d ~/.dotfiles -t ~ nvim
 sudo stow -d ~/.dotfiles -t ~ fonts
 
 ## Stow clang-format to / to make it global
-sudo stow -d ~/.dotfiles -t /  clang-format
+sudo stow -d ~/.dotfiles -t / clang-format
 
 
 # Post Stow
