@@ -23,11 +23,6 @@ sudo apt install tree -y
 # Install neofetch
 sudo apt install neofetch -y
 
-# Install google chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb -y
-rm -rf google-chrome-stable_current_amd64.deb
-
 # Make .config and .local/share directories in ~ ,if doesn't exist already, to make stow symlink only the wanted directories
 mkdir ~/.config
 mkdir ~/.local/share -p
