@@ -66,14 +66,14 @@ rm ~/.config/synth-shell/synth-shell-prompt.config
 
 # Stow
 
-sudo stow --dir=~/.dotfiles/ --target=~/ ~/.dotfiles/bash
-sudo stow --dir=~/.dotfiles/ --target=~/ ~/.dotfiles/git
-sudo stow --dir=~/.dotfiles/ --target=~/ ~/.dotfiles/synth-shell
-sudo stow --dir=~/.dotfiles/ --target=~/ ~/.dotfiles/nvim
-sudo stow --dir=~/.dotfiles/ --target=~/ ~/.dotfiles/fonts
+sudo stow -d ~/.dotfiles -t ~ bash
+sudo stow -d ~/.dotfiles -t ~ git
+sudo stow -d ~/.dotfiles -t ~ synth-shell
+sudo stow -d ~/.dotfiles -t ~ nvim
+sudo stow -d ~/.dotfiles -t ~ fonts
 
 ## Stow clang-format to / to make it global
-sudo stow --dir=~/.dotfiles/ --target=/  ~/.dotfiles/clang-format
+sudo stow -d ~/.dotfiles -t /  clang-format
 
 
 # Post Stow
