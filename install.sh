@@ -1,4 +1,8 @@
-# Make sure system is updated
+#!/bin/bash
+
+# Installation & Configuration of my environment on a fresh machine!
+
+# Updating & Upgrading
 sudo apt update -y
 sudo apt upgrade -y
 
