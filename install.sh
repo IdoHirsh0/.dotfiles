@@ -55,7 +55,7 @@ git clone --recursive https://github.com/andresgongora/synth-shell.git ~/synth-s
 
 ## Run synth shell setup wizard
 chmod +x ~/synth-shell/setup.sh
-~/synth-shell/setup.sh
+printf 'iunynnn' | ~/synth-shell/setup.sh
 
 ## Delete ~/synth-shell
 rm -rf ~/synth-shell
