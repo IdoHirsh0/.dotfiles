@@ -5,9 +5,10 @@ Easily set up a development environment on a fresh machine!
 
 ## Installation steps
 
-1. Clone this repository to your `home` directory
-2. `cd .dotfiles`
+1. Clone this repository to your `~` directory
+2. `cd ~/.dotfiles`
 3. Make sure `install.sh` has execution premmisions
+    - If not, run `chmod +x install.sh`
 4. Run `./install.sh`
 5. Open a new terminal session
 
