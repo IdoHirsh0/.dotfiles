@@ -20,3 +20,8 @@ cd 3rd/luamake
 ./compile/install.sh
 cd ../..
 ./3rd/luamake/luamake rebuild
+
+## Delete last 2 lines of ~/.bashrc
+## luamake (for some reason) write 2 inncorrect lines to ~/.bashrc
+sed '$d' ~/.bashrc
+sed '$d' ~/.bashrc
