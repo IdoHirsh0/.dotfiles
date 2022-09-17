@@ -24,4 +24,5 @@ return require('packer').startup(function()
 
     -- colorschemes
     use 'folke/tokyonight.nvim'
+    use 'sainnhe/gruvbox-material'
 end)
