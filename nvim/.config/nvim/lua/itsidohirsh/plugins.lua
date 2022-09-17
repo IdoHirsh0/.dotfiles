@@ -12,7 +12,7 @@ return require('packer').startup(function()
     use 'onsails/lspkind-nvim'
 
     -- TreeSitter
-    use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+    -- use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
     -- NerdTree
     use 'preservim/nerdtree'
