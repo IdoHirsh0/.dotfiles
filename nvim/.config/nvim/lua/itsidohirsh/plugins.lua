@@ -12,12 +12,14 @@ return require('packer').startup(function()
     use 'onsails/lspkind-nvim'
 
     -- TreeSitter
-    -- use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
 
     -- NerdTree
     use 'preservim/nerdtree'
     use 'Xuyuanp/nerdtree-git-plugin'
-    use 'tiagofumo/vim-nerdtree-syntax-highlight'
     use 'ryanoasis/vim-devicons'
 
     -- colorschemes

@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/ido/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/ido/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/ido/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -128,11 +133,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ido/.local/share/nvim/site/pack/packer/start/vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
-  },
-  ["vim-nerdtree-syntax-highlight"] = {
-    loaded = true,
-    path = "/home/ido/.local/share/nvim/site/pack/packer/start/vim-nerdtree-syntax-highlight",
-    url = "https://github.com/tiagofumo/vim-nerdtree-syntax-highlight"
   }
 }
 
