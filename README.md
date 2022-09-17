@@ -14,18 +14,21 @@ Easily set up a development environment on a fresh machine!
 
 And that's it 😜
 
-### Additions
+## Additions
 
-#### nvim
+### Nvim
 - Couldn't find a way to autoinstall language parsers for treesitter in `nvim`
 - Inside `nvim` run `:TSInstall <language>` to install a language parser
 - To see all supported languages run `:TSInstallInfo`
 
-#### font
-- Couldn't find a way to auto setup the `Hack Nerd Font` as the default terminal font.
-- Change the font manually in the terminal's preferences to enjoy the full experience of the terminal using icons.
+### Font
+- Couldn't find a way to auto setup the `Hack Nerd Font` as the default terminal font
+- Change the font manually in the terminal's preferences to enjoy the full experience of the terminal using icons
 - To see the added fonts go to `~/.local/share/fonts`
 
-### Small issues
+## Small issues
 
-- installing `nvim` plugins in `--headless` causes error output, but **doesn't** break installation
+### Packer
+- Couldn't find a way to autoinstall `Packer` plugins
+- After `install.sh` is finished, run `:PackerSync` inside `nvim`
+- Then close and reopen `nvim` to use your new configured environment 😎
