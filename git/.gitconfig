@@ -1,12 +1,12 @@
 [user]
-	name = Ido Hirsh
+    name = Ido Hirsh
     email = ido.hirsh.dev@gmail.com
 [core]
-	excludesfile = ~/.gitignore_global
+    excludesfile = ~/.gitignore_global
     editor = nvim
 [pull]
-	ff = only
+    ff = only
 [init]
-	defaultbranch = master
+    defaultbranch = master
 [credential]
-	helper = store
+    helper = store
