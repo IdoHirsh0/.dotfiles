@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd install/
-chmod +x ./*
+sudo chmod +x ./*
 
 ./setup-system.sh
 ./language-compilers.sh
