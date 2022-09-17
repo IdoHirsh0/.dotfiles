@@ -1,10 +1,12 @@
 #!/bin/bash
 
+cd install/
+chmod +x ./*
 
-./install/setup-system.sh
-./install/stow
-./install/language-compilers.sh
-./install/language-servers.sh
-./install/neovim.sh
-./install/synth-shell.sh
-./install/neofetch.sh
+./setup-system.sh
+./language-compilers.sh
+./language-servers.sh
+./synth-shell.sh
+./neofetch.sh
+./stow.sh
+./neovim.sh
