@@ -6,11 +6,11 @@ Easily set up a development environment on a fresh machine!
 ## Installation steps
 
 1. Clone this repository to your machine
-1. `cd .dotfiles`
-1. Make sure `install.sh` has execution premmisions
+2. `cd .dotfiles`
+3. Make sure `install.sh` has execution premmisions
     - If not, run `chmod +x install.sh`
-1. Run `./install.sh`
-1. Open a new terminal session
+4. Run `./install.sh`
+5. Open a new terminal session
 
 And that's it 😜
 
@@ -29,4 +29,3 @@ And that's it 😜
 ### Small issues
 
 - installing `nvim` plugins in `--headless` causes error output, but **doesn't** break installation
-

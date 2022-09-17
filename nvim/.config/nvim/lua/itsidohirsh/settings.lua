@@ -63,3 +63,6 @@ vim.opt.undofile = true
 
 -- Error bells
 vim.opt.errorbells = false
+
+-- NerdTree
+vim.g.NERDTreeGitStatusWithFlags = 1
