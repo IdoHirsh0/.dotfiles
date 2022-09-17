@@ -1,9 +1,7 @@
 #!/bin/bash
 
-
 # Install
 sudo apt install neofetch -y
-
 
 # Make neofetch launch on logon
 echo '' >> ~/.bashrc

@@ -1,9 +1,7 @@
 #!/bin/bash
 
-
 # C
 sudo apt install -y ccls
-
 
 # lua (from https://github.com/sumneko/lua-language-server)
 
@@ -23,6 +21,6 @@ cd ../..
 
 ## Delete last 2 lines of ~/.bashrc
 ## luamake (for some reason) write 2 inncorrect lines to ~/.bashrc
-## Coudln't find a better way that just deleting them
+## Coudln't find a better way than just deleting them
 sed -i '$d' ~/.bashrc
 sed -i '$d' ~/.bashrc

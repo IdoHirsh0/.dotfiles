@@ -1,9 +1,7 @@
 #!/bin/bash
 
-
 # Install stow
 sudo apt-get install -y stow
-
 
 # Stow all .dotfiles
 sudo stow -d ~/.dotfiles -t ~ bash
