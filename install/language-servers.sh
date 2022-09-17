@@ -23,5 +23,5 @@ cd ../..
 
 ## Delete last 2 lines of ~/.bashrc
 ## luamake (for some reason) write 2 inncorrect lines to ~/.bashrc
-sed '$d' ~/.bashrc
-sed '$d' ~/.bashrc
+sed -i '$d' ~/.bashrc
+sed -i '$d' ~/.bashrc
