@@ -17,7 +17,7 @@ And that's it 😜
 ### Additions
 
 #### nvim
-- Couldn't find a way to autoinstall language parsers for treesiter in `nvim`
+- Couldn't find a way to autoinstall language parsers for treesitter in `nvim`
 - Inside `nvim` run `:TSInstall <language>` to install a language parser
 - To see all supported languages run `:TSInstallInfo`
 
