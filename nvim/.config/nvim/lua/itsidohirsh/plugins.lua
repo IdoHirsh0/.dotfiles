@@ -2,7 +2,17 @@
 local install_path = vim.fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
 
 if vim.fn.empty(vim.fn.glob(install_path)) > 0 then
-    PACKER_BOOTSTRAP = vim.fn.system({ 'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path })
+    -- Install Packer
+    PACKER_BOOTSTRAP = vim.fn.system {
+        'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim',
+        install_path
+    }
+
+    -- Notify the user
+    print('Installing Packer, close and reopen Nvim...')
+
+    -- Add Packer to the current running instance
+    vim.cmd [[packadd packer.nvim]]
 end
 
 -- Use a protected call so we don't error out on first use
@@ -11,6 +21,16 @@ if not status_ok then
     return
 end
 
+-- Have Packer use a popup windows
+packer.init {
+    display = {
+        open_fn = function()
+            return require('packer.util').float { border = 'rounded' }
+        end
+    }
+}
+
+-- Install Plugins
 return packer.startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
