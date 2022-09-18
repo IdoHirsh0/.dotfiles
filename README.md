@@ -29,6 +29,7 @@ And that's it 😜
 ## Small issues
 
 ### Packer
-- Couldn't find a way to autoinstall `Packer` plugins
-- After `install.sh` is finished, run `:PackerSync` inside `nvim`
-- Then close and reopen `nvim` to use your new configured environment 😎
+- The first time you'll open `nvim`, you'll see some errors
+- That's because it's installing `Packer`, the plugin manager, for the first time
+- Don't worry, it's only for the first time you open `nvim`
+- Close and reopen `nvim` to use your new configured environment 😎
