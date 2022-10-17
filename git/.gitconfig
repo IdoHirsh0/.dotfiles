@@ -1,6 +1,6 @@
 [user]
     name = Ido Hirsh
-    email = itsidohirsh+github@gmail.com
+    email = itsidohirsh@gmail.com
 [core]
     excludesfile = ~/.gitignore_global
     editor = nvim
