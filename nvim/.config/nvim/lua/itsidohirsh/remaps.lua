@@ -16,6 +16,9 @@ map({ 'n', 'i', 'v' }, '<C-a>', '<Esc>ggVG')
 map({ 'n', 'v' }, '<leader>h', '_')
 map({ 'n', 'v' }, '<leader>l', '$')
 
+-- Paste without loosing register
+map({ 'v' }, '<leader>p', '"_dP')
+
 -- Move text
 map({ 'n' }, '<A-j>', ':m .+1<CR>==')
 map({ 'v' }, '<A-j>', ":m '>+1<CR>gv=gv")
